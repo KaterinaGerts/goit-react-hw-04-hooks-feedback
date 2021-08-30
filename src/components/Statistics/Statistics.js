@@ -4,7 +4,7 @@ import s from './Statistics.module.css';
 
 
 export default function Statistics({ good, neutral, bad, total, persentage }) {   
-  console.log({ good, neutral, bad, total, persentage });
+ 
   return (   
     <>      
     <p className={s.data}>Good:{good}</p>         
